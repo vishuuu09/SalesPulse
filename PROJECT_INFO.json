@@ -1,0 +1,7 @@
+{
+  "name": "SalesPulse",
+  "version": "1.0.0",
+  "synthetic_orders": 5000,
+  "synthetic_order_items": 12542,
+  "data_notice": "All included records are fictional synthetic demo data."
+}

@@ -1,0 +1,12 @@
+# Data dictionary
+- `orders.csv`: order header, date, customer, region, rep, channel, status.
+- `order_items.csv`: order-line grain, product, quantity, unit price, discount.
+- `customers.csv`: customer identity, segment, city and signup date.
+- `products.csv`: product category, subcategory, unit cost and list price.
+- `regions.csv`: region and sales city.
+- `sales_reps.csv`: sales representative and team.
+- `gross_sales = quantity × unit_price`
+- `net_sales = gross_sales × (1 − discount_pct)`
+- `total_cost = quantity × unit_cost`
+- `profit = net_sales − total_cost`
+- Fact grain: one row per order item. Use distinct order IDs for order counts.

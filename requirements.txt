@@ -1,0 +1,8 @@
+pandas>=2.2,<3
+numpy>=1.26,<3
+SQLAlchemy>=2.0,<3
+psycopg[binary]>=3.2,<4
+pydantic-settings>=2.4,<3
+typer>=0.12,<1
+rich>=13.7,<14
+pytest>=8,<9

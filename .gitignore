@@ -1,0 +1,17 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Generated files
+pipeline-error.txt
+data/raw/
+data/processed/
+data/quarantine/*.csv
+
+# IDE
+.vscode/
